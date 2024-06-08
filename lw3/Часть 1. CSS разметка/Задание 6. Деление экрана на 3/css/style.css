@@ -1,0 +1,23 @@
+#wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+ }
+
+#sectionA
+{
+    width: 33%;
+    background-color: red;
+}
+
+#sectionB
+{
+    width: 33%;
+    background-color: yellow;
+}
+
+#sectionC
+{
+    width: 33%;
+    background-color: green;
+}

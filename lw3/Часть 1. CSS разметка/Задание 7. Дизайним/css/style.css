@@ -1,0 +1,59 @@
+#main {
+    display: flex;
+    margin: 0 auto;
+    width: 750px;
+}
+
+#part1 {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    background: red;
+    border-radius: 30px;
+    padding: 80px 150px 140px 180px;
+}
+#part2 {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    background: blue;
+    border-radius: 30px;
+    padding: 80px 150px 140px 170px;
+    
+}
+
+#part3 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: blue;
+    border-radius: 15px;
+    padding: 20px 80px 81px 100px;
+}
+
+#part4 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: yellow;
+    border-radius: 15px;
+    padding: 20px 80px 81px 100px;
+}
+
+#part5 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: red;
+    border-radius: 15px;
+    padding: 20px 80px 81px 100px;
+}
+
+#part6 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: black;
+    border-radius: 15px;
+    padding: 20px 80px 81px 100px;
+}
