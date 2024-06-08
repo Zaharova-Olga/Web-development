@@ -1,0 +1,16 @@
+body {
+    height: 700px;
+}
+
+.image1 {
+    height: 50%;
+    background-image: url(image.jpg);
+	background-repeat: repeat-x space repeat-y;
+    filter: blur(5px);
+}
+
+.image2 {
+    height: 50%;
+    background-image: url(image.jpg);
+    background-size: 3px 3px;
+}

@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+}
+
+.animation_two_container {
+	position: relative;
+	width: 600px;
+	left: 50px;
+		
+	.animation_two {
+        height: 200px;
+		width: 200px;
+		position: absolute;
+		height: 200px;
+		width: 200px;
+        margin-top: 20px;
+		border: 5px solid transparent;
+        border-radius: 50%;
+		border-top-color: rgb(102, 178, 255);
+		animation: animation_two_anim 2s linear infinite;
+			
+		&:before, &:after {
+			content:'';
+			position: absolute;
+			border: 5px solid transparent;
+			border-radius: 50%;
+		}
+			
+		&:before {
+            top: -12px;
+			left: -12px;
+			right: -12px;
+			bottom: -12px;
+			border-top-color: rgb(255, 51, 255);
+			animation: animation_two_anim 3s linear infinite;
+		}
+			
+		&:after {
+            top: 6px;
+			left: 6px;
+			right: 6px;
+			bottom: 6px; 
+			border-top-color: rgb(255, 255, 51);
+			animation: animation_two_anim 5s linear infinite;
+		}
+	}
+}
+		
+@keyframes animation_two_anim {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
